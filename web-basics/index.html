@@ -1,0 +1,110 @@
+<html>
+	<head> 
+		<title>
+			Iron Man FanPage
+			
+		</title>
+		<style>
+			.form-class
+			{
+				font-weight: bold;
+			}
+
+		</style>
+	</head>
+
+<body>
+	<h1>  Iron Man  </h1>
+	<h3>
+
+	<a href="https://www.marvel.com/characters/iron-man-tony-stark" target="_blank">Iron Man profile </a>
+   </h3>
+   <a href="https://www.superherostuff.com/biographies/ironmanbiography.html" target="_blank">
+	 <img src="ironman.png" alt="Iron Man image"> 
+   </a>
+
+
+    <h4> here is the  <a href="https://twitter.com/Iron_Man" target="_blank"> Twitter Link </a>
+	</h4>
+
+	<h3> Enemies : </h3>
+	<ul>
+		<li> Mandarian,Ivan Vanko/Whiplash </li>
+		<li> Brandt </li>
+		<li>  Savin(James Badge Dale)</li>
+		<li> Thanos</li>
+		<li> Obadiah Stane </li>
+		<li> Ultron</li>
+	</ul>	
+
+  <h3> Top 3 Iron Man movies :</h3>
+  <ol> 
+  	<li> Iron Man (<span style="color:red">2008</span>) </li>
+  	<li> Iron Man 2 (<span style="color:red">2010</span>) </li>
+  	<li> Iron Man 3 (<span style="color:red">2012</span>)</li>
+
+  </ol>	
+  <h1> Twitter Link  <img src="twitericon.png"> </h1>
+  <br />
+<div class="form-class">
+  <h1> Registration form
+  </h1>
+  <form action="https://hidden-ridge-64485.herokuapp.com/registration" method="GET">
+   Name 
+  <input type="text" name="username" placeholder="username"> 
+    <br>Password 
+  <input type="password" name="pass"> 
+   <br>Email   
+  <input type="Email" name="email"  placeholder=" email"> 
+  <br> Age
+  <input type="number" name="age" >
+  <br> 
+  <br >Which is your favorite ?<br >
+
+  <br>
+  superman <input type="radio" name="superhero" value="superman">
+  Batman  <input type="radio" name="superhero" value=" Batman ">
+  Spider-man  <input type="radio" name="superhero" value="Spider-man">
+  Iron Man <input type="radio" name="superhero" value="Iron-Man">
+<br>
+<input type="submit" value="submit">
+</form>
+</div>
+
+<form action="https://hidden-ridge-64485.herokuapp.com/booking" method="POST">
+	<h1> Booking Form </h1>
+
+<select name="movie">
+  <option value="Avenger">Avenger</option>
+  <option value="Avenger:Infinity War">Avenger:Infinity War</option>
+  <option value="Avenger:End Game">Avenger:End Game</option>
+</select>
+<br />
+<br />
+<input type="checkbox" name="addon" value="popcorn">popcorn
+<input type="checkbox" name="addon" value="bevagers">bevagers
+<input type="checkbox" name="addon" value="chips">chips
+
+<br  />
+<br />
+
+
+<input type="submit" value="submit">
+
+
+</form>	
+
+<form action=" https://hidden-ridge-64485.herokuapp.com/selfie" method="POST" enctype="multipart/form-data">
+<h1> Upload Selfie </h1>
+<input type="file" name="file">
+<br >
+<input type="datetime-local">
+<input type="submit" value="submit">
+
+</form>	
+
+
+</body>	
+
+
+</html>
