@@ -1,0 +1,65 @@
+#one
+{
+background: pink;
+color:blue;
+margin:2%;
+border:solid;
+padding: 3%;
+font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.white
+{
+	color:black;
+	background:white;
+
+}
+
+#second
+{ 
+	background: black;
+	color:white;
+margin:2%;
+border: solid;
+font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#third
+{
+ background: black;
+ color:white;
+ margin: 2%;
+ border: solid;
+ padding: 3%;
+ font-family:"Comic Sans MS", cursive, sans-serif;	
+ text-align: center;
+}
+
+.unorderlist
+{
+	color:red;
+	font-size: 200%;
+	list-style: none;
+	padding: 0%; 
+	width: 30%;
+
+}
+
+.listiems
+{
+	background: yellow;
+	padding: 1%;
+	border-color: red;
+	border:solid;
+	border-radius:13px; 
+	margin:3px;
+	background-image:url("iconfinder_star_fav_42362.png"); 
+	background-repeat:no-repeat;
+	background-position: right;
+
+}
+.listiems:hover
+{
+	background-color: white;
+	opacity:0.5;
+	transform: translate(4%,6%);
+}
